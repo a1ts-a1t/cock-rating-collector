@@ -8,7 +8,7 @@ on:
 jobs:
   four-chan:
     name: Collect cock ratings from 4chan threads
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       MONGODB_URI: ${{ secrets.MONGODB_URI }}
     steps:
